@@ -1,7 +1,5 @@
 <script lang="ts">
-	import Footer from "$lib/components/Footer.svelte";
-
-	// Add any TypeScript logic here if needed
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <main>
@@ -16,37 +14,36 @@
 			<div class="avatar">SK</div>
 			<h2>Sahasanu Karthick</h2>
 			<p class="role">Team Leader</p>
-			<p class="description">Expert in tactical systems and advanced sensor integration</p>
+			<p class="description">Project Leader, Research, Documentation, Designed Models for project presentation</p>
 		</div>
-		<div class="item">
-			<div class="avatar">YG</div>
-			<h2>Yaksh Goel</h2>
-			<p class="role">Designer</p>
-			<p class="description">Pioneering computer vision and detection algorithms</p>
-		</div>
-	</div>
-	<div class="row">
 		<div class="item">
 			<div class="avatar">AA</div>
 			<h2>Arjun Ahuja</h2>
 			<p class="role">Co-Leader</p>
-			<p class="description">Creating robust and field-ready tactical equipment</p>
+			<p class="description">Coding & Wireless Systems, Trained AI</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="item">
+			<div class="avatar">YG</div>
+			<h2>Yaksh Goel</h2>
+			<p class="role">Designer</p>
+			<p class="description">Miscellaneous Work, Presentation, Website, Reasearch</p>
 		</div>
 		<div class="item">
 			<div class="avatar">SG</div>
 			<h2>Satvik Gupta</h2>
 			<p class="role">Lead Designer</p>
-			<p class="description">Integrating reconnaissance systems with command networks</p>
+			<p class="description">Outer Shell 3D Model, Designed Models for project presentation</p>
 		</div>
 	</div>
-
-  <Footer />
 </main>
+<Footer />
 
 <style>
 	.section-header {
 		text-align: center;
-    margin-top: 2rem;
+		margin-top: 2rem;
 		margin-bottom: 4rem;
 	}
 

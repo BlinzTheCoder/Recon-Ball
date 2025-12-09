@@ -1,5 +1,5 @@
 <script lang="ts">
-	// Add any TypeScript logic here if needed
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -63,6 +63,7 @@
 		</div>
 	</div>
 </main>
+<Footer />
 
 <style>
 	:global(body) {

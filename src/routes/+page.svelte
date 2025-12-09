@@ -66,17 +66,15 @@
 
 		<div class="columns">
 			<div class="column">
-				<h3>Detection Phase</h3>
+				<h3>Detection</h3>
 				<p>
-					Advanced sensors detect enemy presence and movement patterns within the operational
-					radius, providing real-time tactical intelligence.
+					Utilizes many cameras to get a 360 degree view of the surroundings, without leaving any blinz spots
 				</p>
 			</div>
 			<div class="column">
-				<h3>Decoy Activation</h3>
+				<h3>Trained AI</h3>
 				<p>
-					Simulates authentic grenade behavior with visual and audio cues, drawing enemy attention
-					and creating strategic diversions.
+					Employs advanced machine learning algorithms to accurately identify and classify enemy soldiers in various environments.
 				</p>
 			</div>
 			<div class="column">

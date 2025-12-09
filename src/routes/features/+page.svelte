@@ -1,5 +1,5 @@
  <script lang="ts">
-	// Add any TypeScript logic here if needed
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -45,12 +45,6 @@
 			</div>
 			<h2>360° Vision System</h2>
 			<p>Multiple cameras provide complete spherical coverage, eliminating blind spots and ensuring comprehensive battlefield awareness.</p>
-			<ul>
-				<li>4K ultra-HD imaging</li>
-				<li>Night vision capability</li>
-				<li>Thermal detection mode</li>
-				<li>Real-time video streaming</li>
-			</ul>
 		</div>
 
 		<div class="feature-card">
@@ -79,24 +73,12 @@
 		<div class="feature-card">
 			<div class="icon-badge">
 				<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-					<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-					<polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
-					<line x1="12" y1="22.08" x2="12" y2="12"/>
-				</svg>
-			</div>
-			<h3>Rugged Design</h3>
-			<p>Military-grade construction withstands harsh environments and extreme conditions in any theater of operation.</p>
-		</div>
-
-		<div class="feature-card">
-			<div class="icon-badge">
-				<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 					<path d="M12 2v20M2 12h20"/>
 					<circle cx="12" cy="12" r="10"/>
 				</svg>
 			</div>
-			<h3>Encrypted Transmission</h3>
-			<p>Military-grade encryption ensures secure data transmission to command centers without interception risks.</p>
+			<h3>Transmitter</h3>
+			<p>Nrf24L01 is the transmitter used by Recon Ball with 1km range and 32 bits of storage which is more than sufficient</p>
 		</div>
 
 		<div class="feature-card">
@@ -105,8 +87,8 @@
 					<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
 				</svg>
 			</div>
-			<h3>Extended Battery Life</h3>
-			<p>Long-lasting power supply supports extended missions with up to 48 hours of continuous operation.</p>
+			<h3>Good Battery Life</h3>
+			<p>Recon Ball is powered by a 6040mah battery ensuring the ball can work for atleast 6 hours</p>
 		</div>
 	</div>
 
@@ -120,27 +102,24 @@
 			</div>
 			<div class="spec-item">
 				<span class="spec-label">Diameter</span>
-				<span class="spec-value">6.5 cm</span>
+				<span class="spec-value">5 cm</span>
 			</div>
 			<div class="spec-item">
 				<span class="spec-label">Battery Life</span>
-				<span class="spec-value">48 hours</span>
+				<span class="spec-value">6 hours</span>
 			</div>
 			<div class="spec-item">
 				<span class="spec-label">Range</span>
-				<span class="spec-value">500m</span>
+				<span class="spec-value">1km</span>
 			</div>
 			<div class="spec-item">
 				<span class="spec-label">Cameras</span>
-				<span class="spec-value">6x 4K</span>
-			</div>
-			<div class="spec-item">
-				<span class="spec-label">Operating Temp</span>
-				<span class="spec-value">-40°C to 60°C</span>
+				<span class="spec-value">4 x 2MP</span>
 			</div>
 		</div>
 	</div>
 </main>
+<Footer />
 
 <style>
 	:global(body) {
