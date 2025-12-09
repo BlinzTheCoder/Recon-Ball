@@ -68,7 +68,7 @@
 			<div class="column">
 				<h3>Detection</h3>
 				<p>
-					Utilizes many cameras to get a 360 degree view of the surroundings, without leaving any blinz spots
+					Utilizes many cameras to get a 360 degree view of the surroundings, without leaving any blind spots
 				</p>
 			</div>
 			<div class="column">

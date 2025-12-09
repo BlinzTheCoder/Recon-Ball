@@ -24,7 +24,7 @@
     </div>
     <div class="footer-bottom">
         <p>&copy; 2025 Recon Ball. All rights reserved.</p>
-    </div>
+    </div>.
 </footer>
 
 <style>
