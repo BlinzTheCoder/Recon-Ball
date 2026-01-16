@@ -28,7 +28,7 @@
 			<div class="avatar">YG</div>
 			<h2>Yaksh Goel</h2>
 			<p class="role">Designer</p>
-			<p class="description">Miscellaneous Work, Presentation, Website, Reasearch</p>
+			<p class="description">Miscellaneous Work, Project Presentation, Website, Reasearch</p>
 		</div>
 		<div class="item">
 			<div class="avatar">SG</div>

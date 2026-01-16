@@ -60,6 +60,7 @@
         flex: 1;
     }
 
+
     .footer-section h3 {
         font-size: 1.5rem;
         font-weight: 700;
