@@ -9,6 +9,7 @@
 		{ name: 'Home', href: '/' },
 		{ name: 'Features', href: '/features' },
 		{ name: 'Team', href: '/team' },
+		{ name: 'Feedback', href: '/feedback' },
 		{ name: 'Contact', href: '/contact' }
 	];
 
